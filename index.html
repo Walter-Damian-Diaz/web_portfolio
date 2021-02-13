@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!--ICON-AWSOME-->
+         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+         <!--jQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <!--MY JAVASCRIPT-->
+         <script src="js/slider-portada.js"></script>
+         <script src="js/menu-responsive.js"></script>
+         <script src="js/nube-de-dialogo.js"></script>
+         <!--MY CSS-->
+        <link href="css/header.css" rel="stylesheet">
+        <link href="css/index.css" rel="stylesheet">
+        <link href="css/footer.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="menu-responsive">
+                <h1>Menu</h1><i class="fas fa-align-justify iconoMenu"></i><i class="fas fa-times xMenu"></i>
+            </div>
+            <nav class="menu-principal">             <!--MENU PRINCIPAL-->
+                <ul class="nom">
+                    <h1>Walter Damian Diaz</h1>
+                </ul>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li id="liToggle">
+                        <div>
+                            <a href="#" class="sin-menu"><i class="fas fa-suitcase"></i>Mas trabajos</a>
+                            <i class="fas fa-chevron-down flechaAbajo flechas"></i>
+                            <i class="fas fa-chevron-right flechaDerecha flechas"></i>
+                        </div>
+                        <ul class="sub-menu1">                               <!--SUB-MENU-->
+                            <li><a href="mas-trabajos.html">Mas trabajos</a></li>
+                            <li><a href="#">vacio</a></li>
+                            <li><a href="#">vacio</a></li>
+                            <li><a href="#">vacio</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="info.html" class="sin-menu"><i class="fas fa-info-circle"></i>Info</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#ubicacion" class="sin-menu"><i class="fas fa-map-marker-alt"></i>Ubicacion</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="contacto.html" class="sin-menu"><i class="fas fa-envelope-open-text"></i>Contacto</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="fondo-container">         <!--FONDO-->
+                <ul class="fondo-izquierdo">
+                    <img src="imagenes/logo/esta2.png" alt="">
+                    <p class="texto-dialogo">Soy walter</p>
+                </ul>
+                <ul class="fondo-derecho">
+                    <div>
+                        <h1>Hola</h1>
+                        <p>
+                            Mi nombre es walter, soy de Buenos Aires(Argentina).
+                            Este es mi curriculum, debajo se encuentra mi informacion
+                            academica, y algunos proyectos, hay mas en la seccion 
+                            "mas trabajos", tambien se me ocurrio que seria buena idea 
+                            implementar una base de datos para guardar una encuesta 
+                            que esta diriguida hacia los entrevistadores, esta pagina 
+                            la monte en Django con Sqlite .Me seria de gran ayuda que 
+                            completes la encuesta de como calificarias mi desempeño 
+                            como programador, agradezco tu tiempo. Saludos
+                        </p>
+                        <div class="iconos-boton">                     <!--ICONOS PORTADA-->
+                            <div class="iconos">
+                                <a href="https://github.com/Walter-Damian-Diaz"><i class="fab fa-github"></i></a>
+                                <a href="https://api.whatsapp.com/send?phone=541161023944"><i class="fab fa-whatsapp"></i></a>
+                                <a href="contacto.html"><i class="fas fa-envelope-open-text"></i></a>
+                            </div>                
+                            <div class="boton-encuesta">
+                                <a>Ver Encuesta</a>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="slider-container">      <!--SLIDER-->
+                <div>
+                    <ul class="slider s1">
+                        <li>
+                            <h1>Mis conocimientos</h1>
+                            <p>
+                            -Conocimientos en HTML, CSS, JAVASCRIPT,
+                            ,BOOTSTRAP, JQUERY, PYTHON, DJANGO, C++ y WORDPRESS<br>
+                            -Estudio en UTN (Universidad Tecnologica Nacional)<br>
+                            -Cursos realizado de fullstack HTML, CSS y Javascript 
+                            con Django y SQLite.<br>
+                            -Otros 3 cursos realizados de Python POO, Mysql y Wordpress.<br>
+                            -Uso de git-hub y git-bash para proyectos.<br>
+                            -Ingles avanzado (sin problemas de tener una entrevista en ingles)
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="slider s2">
+                        <li>
+                            <h1>Mis objetivos</h1>
+                            <p>
+                                Uno de mis objetivos es llevar al maximo mis habilidades
+                                como desarrollador web mientras termino la facultad, para algun dia 
+                                dedicarme a machine learning y big-data.
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="slider s3">
+                        <li>
+                            <h1>Mis creencias</h1>
+                            <p>
+                                Esforzarme al 150% para lograr mis objetivos, 
+                                creo que todo se consigue a través del trabajo duro 
+                                con dedicacion y pasión por lo que uno hace
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flecha-slider-izquierda flechas-slider">    <!--FLECHAS-->
+                    <li><i class="fas fa-chevron-left"></i></li>
+                </div>
+                <div class="flecha-slider-derecha flechas-slider">
+                    <li><i class="fas fa-chevron-right"></i></li>
+                </div>
+                <div class="paginacion">                        <!--PAGINACION-->
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="information-container" id="info">           <!--INFO-->
+                <div class="first-line">
+                    <ul class="presentation-text text1">
+                        <h1>Acerca de Mi</h1>
+                        <p>
+                            Mi nombre es Walter, tengo 26 años, nacido en Argentina,
+                            soy de Buenos Aires vivo en General Pacheco una ciudad de
+                            Zona Norte en Tigre. Mis estudios y experiencias se encuentran
+                            detalladas por debajo. Me 
+                            gustaria tener la oportunidad de formar parte de su equipo de trabajo,
+                            debido a que seria mi primer experiencia y que coincidero que mis conocimientos
+                            son lo suficiente como para formar parte de un equipo, es por eso que envio
+                            mi curriculum, me gustaria pedirle humildemente que forme parte de mi encuesta
+                            acerca de que piensa sobre mi y mis trabajos para ayudarme a mejorar o 
+                            tener en cuenta ciertos aspectos que pueden enriqueserme aun mas como
+                            desarrollador, desde ya muchas gracias.
+                        </p>
+                    </ul>
+                    <ul class="presentation-img img1">
+                        <li class="imagen-pagina"><a href="https://walter-damian-diaz.github.io/web_constructora/"><img src="imagenes/index/2.JPG" alt=""></a></li>
+                        <li class="button-img"><a href="https://walter-damian-diaz.github.io/web_constructora/"><i class="fas fa-plus"></i>Ver pagina</a></li>
+                    </ul>
+                </div>
+                <div class="second-line">
+                    <ul class="presentation-text text2" id="second-text">
+                        <h1>Estudios y experencias</h1>
+                        <p>
+                            Actualmente estudio programacion en UTN (Universidad Tecnologica Nacional)
+                            estoy en mi primer año como programador con 5 materias ya aprobadas de el 
+                            primer cuatrimestre con promedios de 9 y 10 en todas las materias, en la 
+                            facultad hasta el momento usamos C++ como lenguaje, en el cual desarrolle 
+                            diferentes tipos de logicas y tambien juegos.
+                            Mi dedicacion por aprender me llevaron a meterme en un curso de fullstack
+                            con Django, Javascript, Bootstrap, SQLite, CSS Y HTML dictado por Polotic 
+                            (Silicon Misiones),de hecho esta pagina la monte en Django con Sqlite para 
+                            poder guardar la encuesta en una base de datos. 
+                            Tambien realize cursos en Fablab de Python POO y Mysql. Por otra parte tambien 
+                            hice un curso de WordPress en mi facultad UTN. Aunque mi experiencia laboral
+                            es nula hasta el momento, me gustaria emprender en este camino en el cual coincidero 
+                            soy muy dedicado y autodidacta. Tambien entiendo Ingles y puedo hablarlo, sin problemas 
+                            de tener una entrevista personal y completamente en ingles.
+                        </p>
+                    </ul>
+                    <ul class="presentation-img img2">
+                        <li class="imagen-pagina"><a href="https://walter-damian-diaz.github.io/web_ropa/"><img src="imagenes/index/4.JPG" alt=""></a></li>
+                        <li class="button-img"><a href="https://walter-damian-diaz.github.io/web_ropa/" ><i class="fas fa-plus"></i>  Ver pagina</a></li>
+                    </ul>
+                </div>            
+            </div>
+            <div class="mis-trabajos">             <!--MIS TRABAJOS-->
+                <h1>Click en el boton para ver mas trabajos</h1>
+                <a href="mas-trabajos.html">Ver</a>
+            </div>
+            <div class="ubicacion" id="ubicacion">      <!--MAPA-->
+                <h1><i class="fas fa-map-marker-alt"></i>  Ubicacion</h1>
+                <p>Lugar donde recido actualmente</p>
+                <li id="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52639.90161180773!2d-58.69309449800724!3d-34.45230398041936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca39ca574d823%3A0xd4fb0a11188d493e!2sGral.%20Pacheco%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1610923020988!5m2!1ses-419!2sar"  width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></li>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <ul class="logo-footer">
+                    <li><img src="imagenes/logo/esta2.png" alt=""></li>
+                </ul>
+                <ul class="about-footer">
+                    <p>Mail: walter.diaz@alumnos.frgp.utn.edu.ar</p>
+                    <p>Localidad: Tigre(Gral.Pacheco)</p>
+                    <p>Direccion: Tucuman 288</p>
+                    <p>Tel: 1161023944</p>
+                </ul>
+                <ul class="info-footer">
+                    <li><a href="mas-trabajos.html">Mas trabajos</a></li>
+                    <li><a href="info.html">Info</a></li>
+                    <li><a href="#ubicacion">Ubicacion</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <ul class="iconos iconos-footer">                 <!--ICONOS FOOTER-->
+                    <a href="https://github.com/Walter-Damian-Diaz"><i class="fab fa-github"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=541161023944"><i class="fab fa-whatsapp"></i></a>
+                    <a href="contacto.html"><i class="fas fa-envelope-open-text"></i></a>
+                </ul>
+            </div>
+            <div class="text-bottom">
+                <h1>Gracias por visitar mi pagina, espero sea de tu agrado</h1>
+            </div>
+        </footer>
+    </body>
+</html>
