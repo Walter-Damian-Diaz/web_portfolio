@@ -138,8 +138,6 @@ li{
 }
 
 
-
-
 /*   MENU-RESPONSIVE   ////////////////////////////////////////////////////////////////////*/
 
 .menu-responsive{
@@ -147,17 +145,21 @@ li{
 }
 .menu-responsive>h1{
     color:white;
-    font-size: calc(1vw + 22px);
+    font-size: 30px;
     margin-top: 0.3cm;
     padding: 0px 10px;
 }
 .menu-responsive>i{
-    font-size: calc(1vw + 29px);
+    font-size:37px;
     position:absolute;
     right:20px;
     margin-top:-0.9cm;
     color:white;
     cursor: pointer;
+}
+
+.iconoMenu , .xMenu{
+    display:none;
 }
 
 /*   FONDO   ////////////////////////////////////////////////////////////////////*/
@@ -322,9 +324,7 @@ li{
     }
 
     /* iconos menu*/
-    .xMenu{
-        display:none;
-    }
+    
     .iconoMenu{
         display:block;
     }
